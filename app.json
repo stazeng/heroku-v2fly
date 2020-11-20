@@ -1,0 +1,17 @@
+{
+    "name": "Heroku-V2fly",
+    "description": "Deploy V2fly on Heroku.",
+    "keywords": ["V2fly", "V2Ray", "vless"],
+    "env": {
+        "UUID": {
+            "description": "V2fly UUID",
+            "value": "88c18665-8555-41c9-ac90-842438245542"
+        },
+        "PATH": {
+            "description": "V2fly websocket path",
+            "value": "/ray"
+        }
+    },
+    "repository": "https://github.com/qiumzh/heroku-v2fly",
+    "stack": "container"
+}
